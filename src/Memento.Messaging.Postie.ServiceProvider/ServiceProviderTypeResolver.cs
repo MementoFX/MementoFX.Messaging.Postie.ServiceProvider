@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System;
 
-namespace Memento.Messaging.Postie.ServiceProvider
+namespace MementoFX.Messaging.Postie.ServiceProvider
 {
     public class ServiceProviderTypeResolver : ITypeResolver
     {
