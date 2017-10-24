@@ -12,6 +12,7 @@
     <Company>Mastreeno ltd</Company>
     <Description>A Microsoft.Extensions.DependencyInjection-based type resolver for Postie</Description>
     <Copyright>© Andrea Saltarello, Mastreeno ltd 2017</Copyright>
+    <PackageProjectUrl>http://mementofx.mastreeno.com</PackageProjectUrl>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
