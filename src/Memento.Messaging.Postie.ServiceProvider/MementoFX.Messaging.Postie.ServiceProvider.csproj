@@ -7,7 +7,7 @@
     <PackageLicenseUrl>https://opensource.org/licenses/RPL-1.5</PackageLicenseUrl>
     <RepositoryUrl>https://github.com/MementoFX/MementoFX.Messaging.Postie.ServiceProvider</RepositoryUrl>
     <PackageTags>mementofx, bus, postie, cqrs, ddd, unity, ioc</PackageTags>
-    <Version>2.0.0-pre2</Version>
+    <Version>2.0.0</Version>
     <Product>MementoFX</Product>
     <Company>Managed Designs</Company>
     <Description>A Microsoft.Extensions.DependencyInjection-based type resolver for Postie</Description>
@@ -34,9 +34,9 @@
     <DocumentationFile>bin\Release\MementoFX.Messaging.Postie.ServiceProvider.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="MementoFX" Version="2.0.0-pre6" />
-    <PackageReference Include="MementoFX.Messaging.Postie" Version="2.0.0-pre2" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
+    <PackageReference Include="MementoFX" Version="2.0.0" />
+    <PackageReference Include="MementoFX.Messaging.Postie" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />

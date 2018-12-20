@@ -34,13 +34,16 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Castle.Core" Version="4.3.1" />
-    <PackageReference Include="MementoFX" Version="2.0.0-pre6" />
-    <PackageReference Include="MementoFX.Messaging.Postie" Version="2.0.0-pre2" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.0.0" />
-    <PackageReference Include="Moq" Version="4.7.142" />
+    <PackageReference Include="MementoFX" Version="2.0.0" />
+    <PackageReference Include="MementoFX.Messaging.Postie" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="2.2.0" />
+    <PackageReference Include="Moq" Version="4.10.1" />
     <PackageReference Include="SharpTestsEx" Version="2.0.0" />
-    <PackageReference Include="xunit" Version="2.3.0" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.3.0" />    
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>    
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Memento.Messaging.Postie.ServiceProvider\MementoFX.Messaging.Postie.ServiceProvider.csproj" />
